@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using TerrariaTrainer.Common.Configs;
+using CheatTrainer.Common.Configs;
 
-namespace TerrariaTrainer.Common.Systems
+namespace CheatTrainer.Common.Systems
 {
     /// <summary>
     /// 「通讯类合成」——一次覆盖手机与贝壳电话两级。

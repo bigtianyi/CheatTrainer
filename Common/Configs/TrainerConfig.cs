@@ -2,11 +2,11 @@ using System.ComponentModel;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
 
-namespace TerrariaTrainer.Common.Configs
+namespace CheatTrainer.Common.Configs
 {
     /// <summary>
     /// 模组文字使用哪种语言。
-    /// 枚举成员的显示名走本地化键 Mods.TerrariaTrainer.Configs.TrainerLanguage.{成员}.Label。
+    /// 枚举成员的显示名走本地化键 Mods.CheatTrainer.Configs.TrainerLanguage.{成员}.Label。
     /// </summary>
     public enum TrainerLanguage
     {

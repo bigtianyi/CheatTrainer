@@ -1,7 +1,7 @@
 using Terraria.ModLoader;
-using TerrariaTrainer.Common.Systems;
+using CheatTrainer.Common.Systems;
 
-namespace TerrariaTrainer
+namespace CheatTrainer
 {
     /// <summary>
     /// 模组入口。所有实际逻辑都在 Common/ 下面：
@@ -12,7 +12,7 @@ namespace TerrariaTrainer
     ///   Systems/TrainerLang     —— 中英双语取词（本地化在 Localization/*.hjson）
     ///   UI/                     —— 悬浮控制面板
     /// </summary>
-    public class TerrariaTrainer : Mod
+    public class CheatTrainer : Mod
     {
         public override void Load()
         {

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-生成 TerrariaTrainer 的双语本地化文件。
+生成 CheatTrainer 的双语本地化文件。
 
 用法（在仓库任意位置）：
     python _tools/gen_localization.py
 
 输出到本脚本上一级的 Localization/ 目录，即仓库根下的：
-    Localization/en-US_Mods.TerrariaTrainer.hjson
-    Localization/zh-Hans_Mods.TerrariaTrainer.hjson
-    Localization/en-US_Mods.TerrariaTrainer.Configs.hjson
-    Localization/zh-Hans_Mods.TerrariaTrainer.Configs.hjson
+    Localization/en-US_Mods.CheatTrainer.hjson
+    Localization/zh-Hans_Mods.CheatTrainer.hjson
+    Localization/en-US_Mods.CheatTrainer.Configs.hjson
+    Localization/zh-Hans_Mods.CheatTrainer.Configs.hjson
 
 每个文件内部同时包含三份内容：
     1. 原生键（跟随游戏语言时使用）
@@ -22,7 +22,7 @@ import io
 import os
 import sys
 
-MOD = "TerrariaTrainer"
+MOD = "CheatTrainer"
 # 脚本位于 <repo>/_tools/ 下，本地化文件位于 <repo>/Localization/。
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Localization")
 
@@ -90,11 +90,11 @@ LANGUAGE_ENUM = [
 
 # 注意：ModConfig 的 DisplayName 会**整个替换**配置页标题
 # （默认是 "{模组显示名}: {配置类名}"），所以这里要把模组名带回来。
-CONFIG_DISPLAY = ("Terraria Trainer (14 in 1) · 修改器设置",
-                  "Terraria Trainer (14 in 1) · Trainer Settings")
+CONFIG_DISPLAY = ("Cheat Trainer (14 in 1) · 修改器设置",
+                  "Cheat Trainer (14 in 1) · Trainer Settings")
 
 UI = [
-    ("PanelTitle", "Terraria Trainer 14 合 1", "Terraria Trainer (14 in 1)"),
+    ("PanelTitle", "Cheat Trainer 14 合 1", "Cheat Trainer (14 in 1)"),
     ("Hint", "按小键盘 . 开关面板 · 热键见 设置 → 控制", "Press NumPad . to toggle · Hotkeys: Settings > Controls"),
     ("Footer", "点击文字即可开关（开关状态会自动保存）", "Click a line to toggle (state is saved automatically)"),
     ("SpeedLabel", "游戏速度", "Game Speed"),
@@ -220,10 +220,10 @@ def main():
     print(f"输出目录: {os.path.normpath(OUT_DIR)}")
 
     for culture, native in (("zh-Hans", "zh"), ("en-US", "en")):
-        # ---- Configs 文件（键前缀 Mods.TerrariaTrainer.Configs.）----
+        # ---- Configs 文件（键前缀 Mods.CheatTrainer.Configs.）----
         body = []
         body.append("# 本文件由 _tools/gen_localization.py 生成，请勿手改。")
-        body.append("# 键前缀：Mods.TerrariaTrainer.Configs.")
+        body.append("# 键前缀：Mods.CheatTrainer.Configs.")
         body.append(f"# 语言：{culture}")
         body.append("")
         body.append(emit_configs_block(native, lvl=0))
@@ -239,7 +239,7 @@ def main():
         body.append("")
         write(os.path.join(OUT_DIR, f"{culture}_Mods.{MOD}.Configs.hjson"), "\n".join(body))
 
-        # ---- 主文件（键前缀 Mods.TerrariaTrainer.）----
+        # ---- 主文件（键前缀 Mods.CheatTrainer.）----
         body = []
         body.append("# 本文件由 _tools/gen_localization.py 生成，请勿手改。")
         body.append(f"# 键前缀：Mods.{MOD}.")

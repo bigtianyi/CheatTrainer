@@ -5,9 +5,9 @@ using Microsoft.Xna.Framework.Input;
 using Terraria;
 using Terraria.GameInput;
 using Terraria.ModLoader;
-using TerrariaTrainer.Common.Configs;
+using CheatTrainer.Common.Configs;
 
-namespace TerrariaTrainer.Common.Systems
+namespace CheatTrainer.Common.Systems
 {
     /// <summary>
     /// 热键注册与开关处理。
@@ -26,7 +26,7 @@ namespace TerrariaTrainer.Common.Systems
     ///   功能 14「通讯类合成」默认落在 F5 —— F1~F4 被原版占用（装备套装 / 相机），
     ///   而 F5~F12 是空闲的。
     ///
-    /// 全部可以在「设置 → 控制 → Terraria Trainer」里重新绑定。
+    /// 全部可以在「设置 → 控制 → Cheat Trainer」里重新绑定。
     ///
     /// ⚠️ 小键盘数字键需要 **NumLock 处于开启状态**，否则会变成方向键。
     ///

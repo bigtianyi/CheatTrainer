@@ -7,7 +7,7 @@
     -->
     <TModLoaderPath Condition="'$(TModLoaderPath)' == ''">D:\SteamLibrary\steamapps\common\tModLoader\</TModLoaderPath>
 
-    <AssemblyName>TerrariaTrainer</AssemblyName>
+    <AssemblyName>CheatTrainer</AssemblyName>
     <TargetFramework>net8.0</TargetFramework>
     <LangVersion>12.0</LangVersion>
     <Nullable>enable</Nullable>

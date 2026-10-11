@@ -5,10 +5,10 @@ using Terraria;
 using Terraria.GameContent;
 using Terraria.GameContent.UI.Elements;
 using Terraria.UI;
-using TerrariaTrainer.Common.Configs;
-using TerrariaTrainer.Common.Systems;
+using CheatTrainer.Common.Configs;
+using CheatTrainer.Common.Systems;
 
-namespace TerrariaTrainer.Common.UI
+namespace CheatTrainer.Common.UI
 {
     /// <summary>面板上的一根滑条，直接读写配置项。</summary>
     public class TrainerSlider : UIElement

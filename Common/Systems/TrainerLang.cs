@@ -1,9 +1,9 @@
 using System;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using TerrariaTrainer.Common.Configs;
+using CheatTrainer.Common.Configs;
 
-namespace TerrariaTrainer.Common.Systems
+namespace CheatTrainer.Common.Systems
 {
     /// <summary>
     /// 模组文字的取词入口，支持中英双语切换。
@@ -14,7 +14,7 @@ namespace TerrariaTrainer.Common.Systems
     ///   ③ LangZh.*  中文镜像
     ///
     /// 「界面语言」选「跟随游戏」时直接用原生键；
-    /// 选了具体语言时，把 key 里的 "Mods.TerrariaTrainer." 后面插一段
+    /// 选了具体语言时，把 key 里的 "Mods.CheatTrainer." 后面插一段
     /// LangEn. / LangZh. 再取一次。
     ///
     /// 为什么要 Hook Language.GetText，而不是只在自己代码里判断？
@@ -25,7 +25,7 @@ namespace TerrariaTrainer.Common.Systems
     /// </summary>
     public static class TrainerLang
     {
-        public const string ModPrefix = "Mods.TerrariaTrainer.";
+        public const string ModPrefix = "Mods.CheatTrainer.";
         private const string TagEnglish = "LangEn";
         private const string TagChinese = "LangZh";
 

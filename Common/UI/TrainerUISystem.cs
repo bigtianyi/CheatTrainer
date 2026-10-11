@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.UI;
 
-namespace TerrariaTrainer.Common.UI
+namespace CheatTrainer.Common.UI
 {
     /// <summary>把悬浮面板挂进游戏的界面层。</summary>
     public class TrainerUISystem : ModSystem
@@ -78,7 +78,7 @@ namespace TerrariaTrainer.Common.UI
             }
 
             layers.Insert(index, new LegacyGameInterfaceLayer(
-                "TerrariaTrainer: Panel",
+                "CheatTrainer: Panel",
                 DrawPanel,
                 InterfaceScaleType.UI));
         }

@@ -1,9 +1,9 @@
 # 本文件由 _tools/gen_localization.py 生成，请勿手改。
-# 键前缀：Mods.TerrariaTrainer.Configs.
+# 键前缀：Mods.CheatTrainer.Configs.
 # 语言：zh-Hans
 
 TrainerConfig: {
-	DisplayName: "Terraria Trainer (14 in 1) · 修改器设置"
+	DisplayName: "Cheat Trainer (14 in 1) · 修改器设置"
 
 	Headers: {
 		Cheats: "功能开关"
@@ -132,7 +132,7 @@ TrainerLanguage: {
 # ---- 双语镜像：供模组内的语言开关切换使用 ----
 LangZh: {
 	TrainerConfig: {
-		DisplayName: "Terraria Trainer (14 in 1) · 修改器设置"
+		DisplayName: "Cheat Trainer (14 in 1) · 修改器设置"
 
 		Headers: {
 			Cheats: "功能开关"
@@ -261,7 +261,7 @@ LangZh: {
 
 LangEn: {
 	TrainerConfig: {
-		DisplayName: "Terraria Trainer (14 in 1) · Trainer Settings"
+		DisplayName: "Cheat Trainer (14 in 1) · Trainer Settings"
 
 		Headers: {
 			Cheats: "Cheats"

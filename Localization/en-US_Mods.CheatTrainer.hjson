@@ -1,9 +1,9 @@
 # 本文件由 _tools/gen_localization.py 生成，请勿手改。
-# 键前缀：Mods.TerrariaTrainer.
+# 键前缀：Mods.CheatTrainer.
 # 语言：en-US
 
 UI: {
-	PanelTitle: "Terraria Trainer (14 in 1)"
+	PanelTitle: "Cheat Trainer (14 in 1)"
 	Hint: "Press NumPad . to toggle · Hotkeys: Settings > Controls"
 	Footer: "Click a line to toggle (state is saved automatically)"
 	SpeedLabel: "Game Speed"
@@ -69,7 +69,7 @@ Keybinds: {
 # ---- 双语镜像：供模组内的语言开关切换使用 ----
 LangZh: {
 	UI: {
-		PanelTitle: "Terraria Trainer 14 合 1"
+		PanelTitle: "Cheat Trainer 14 合 1"
 		Hint: "按小键盘 . 开关面板 · 热键见 设置 → 控制"
 		Footer: "点击文字即可开关（开关状态会自动保存）"
 		SpeedLabel: "游戏速度"
@@ -135,7 +135,7 @@ LangZh: {
 
 LangEn: {
 	UI: {
-		PanelTitle: "Terraria Trainer (14 in 1)"
+		PanelTitle: "Cheat Trainer (14 in 1)"
 		Hint: "Press NumPad . to toggle · Hotkeys: Settings > Controls"
 		Footer: "Click a line to toggle (state is saved automatically)"
 		SpeedLabel: "Game Speed"

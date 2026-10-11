@@ -1,9 +1,9 @@
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
-using TerrariaTrainer.Common.Configs;
+using CheatTrainer.Common.Configs;
 
-namespace TerrariaTrainer.Common.Systems
+namespace CheatTrainer.Common.Systems
 {
     /// <summary>
     /// 需要挂到游戏底层的方法上的几项功能：

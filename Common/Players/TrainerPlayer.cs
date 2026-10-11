@@ -3,9 +3,9 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using TerrariaTrainer.Common.Configs;
+using CheatTrainer.Common.Configs;
 
-namespace TerrariaTrainer.Common.Players
+namespace CheatTrainer.Common.Players
 {
     /// <summary>
     /// 每帧生效的状态类作弊。

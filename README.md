@@ -1,4 +1,6 @@
-# Terraria Trainer (14 in 1) — tModLoader 版
+# Cheat Trainer (14 in 1) — tModLoader 版
+
+[English](README.en.md) | **简体中文**
 
 这是把 **FLiNG《Terraria v1.4-v1.4.4.9 Plus 12 Trainer》** 的 12 项功能
 完整复刻成的 tModLoader 模组，另外**额外加送第 13、14 项**自研功能：
@@ -175,10 +177,10 @@ F5 在 Terraria 默认键位里是空闲的。
 `.tmod` 已经自动装好了，**不需要自己编译**：
 
 ```
-C:\Users\<用户名>\Documents\My Games\Terraria\tModLoader-preview\Mods\TerrariaTrainer.tmod
+C:\Users\<用户名>\Documents\My Games\Terraria\tModLoader-preview\Mods\CheatTrainer.tmod
 ```
 
-启动 tModLoader → **模组管理** → 找到 `Terraria Trainer (14 in 1)` → 启用 → 重载模组。
+启动 tModLoader → **模组管理** → 找到 `Cheat Trainer (14 in 1)` → 启用 → 重载模组。
 （首次需要手动启用；`build.txt` 里没写 `side`，默认双端可加载。）
 
 > 注意：这台机器用的是 `tModLoader-preview` 存档目录（Steam `tModLoader` 安装目录是
@@ -193,7 +195,7 @@ C:\Users\<用户名>\Documents\My Games\Terraria\tModLoader-preview\Mods\Terrari
    （对应第 1~12 项，编号一一对应）；第 13 项「剑类合成天顶剑」在 `` ` `` 键（反引号），
    第 14 项「通讯类合成」在 **F5**。
 2. 每个开关的状态会**自动保存**到模组配置里，下次进游戏保持上次的状态。
-3. 热键想改的话：**设置 → 控制 → Terraria Trainer**，15 项（`Cheat0`~`Cheat13` + `TogglePanel`）都列在里面。
+3. 热键想改的话：**设置 → 控制 → Cheat Trainer**，15 项（`Cheat0`~`Cheat13` + `TogglePanel`）都列在里面。
    悬浮面板会**实时显示实际绑定的键**（读 `ModKeybind.GetAssignedKeys`，不是写死的默认值），
    没绑定时显示「未绑定 / Unbound」。
 4. 面板开着的时候不会误触游戏内的挖掘/使用物品，关掉面板就能正常操作。
@@ -223,7 +225,7 @@ C:\Users\<用户名>\Documents\My Games\Terraria\tModLoader-preview\Mods\Terrari
 
 ## 四、自己重新编译
 
-源码就在仓库根目录（即 `TerrariaTrainer/`）。tModLoader 自带 Roslyn，**不需要装 .NET SDK**：
+源码就在仓库根目录（即 `CheatTrainer/`）。tModLoader 自带 Roslyn，**不需要装 .NET SDK**：
 
 ```bash
 cd /d/SteamLibrary/steamapps/common/tModLoader
@@ -231,11 +233,11 @@ cd /d/SteamLibrary/steamapps/common/tModLoader
     -server -build '<仓库根目录>' -unsafe -define 'JETBRAINS_ANNOTATIONS'
 ```
 
-（`<仓库根目录>` 换成你克隆下来的 `TerrariaTrainer` 文件夹的绝对路径。）
+（`<仓库根目录>` 换成你克隆下来的 `CheatTrainer` 文件夹的绝对路径。）
 
 编译成功后会自动打包并安装到 Mods 目录。
 
-或者把 `TerrariaTrainer` 整个文件夹拷进
+或者把 `CheatTrainer` 整个文件夹拷进
 `My Games\Terraria\tModLoader-preview\ModSources\`，在游戏里点「构建 + 重载」。
 （csproj 里的 `TModLoaderPath` 改成你自己的安装路径即可。）
 
@@ -251,7 +253,7 @@ cd /d/SteamLibrary/steamapps/common/tModLoader
 
 ### 模组内单独切换
 
-**设置 → 模组配置 → Terraria Trainer (14 in 1) → 语言 → 界面语言**：
+**设置 → 模组配置 → Cheat Trainer (14 in 1) → 语言 → 界面语言**：
 
 | 选项 | 说明 |
 |---|---|
@@ -274,11 +276,11 @@ LangZh: { UI: { PanelTitle: ... } }   ← 中文镜像
 这样**无论当前是哪种文化，中英两套文字都同时可读**，语言开关才能自由切换。
 
 切换靠 Hook `Language.GetText`：当「界面语言」选了具体语言时，把 key 里的
-`Mods.TerrariaTrainer.` 后面插入一段 `LangEn.` / `LangZh.` 再取一次。
+`Mods.CheatTrainer.` 后面插入一段 `LangEn.` / `LangZh.` 再取一次。
 之所以要拦在 `Language` 这一层，是因为**模组配置界面是 tModLoader 自己渲染的**
 （走 `ConfigManager` → `Language.GetText`），不拦这里配置页就不会跟着变。
 
-> 该 Hook 只对 `Mods.TerrariaTrainer.` 开头的 key 做处理，其余一律原样放行。
+> 该 Hook 只对 `Mods.CheatTrainer.` 开头的 key 做处理，其余一律原样放行。
 > 前缀判断放在最前面，所以对游戏本身的取词开销只是一次字符串比较。
 
 四个 hjson 由 `_tools/gen_localization.py` 生成，改文案请改脚本再重新生成，
@@ -334,6 +336,11 @@ python _tools/gen_localization.py
 
 功能列表参考了公开的修改器功能说明，但**代码、资源、二进制全部为本仓库原创**，
 未打包或再分发任何第三方文件。
+
+> **关于名字**：本项目**刻意不叫** "Terraria Trainer" —— 那是 FLiNG 的产品名。
+> 取名 **Cheat Trainer** 有三个考虑：① 与 FLiNG 的产品明确区分，避免被误认为官方发布或转载；
+> ② 符合 tModLoader 作弊模组的命名惯例（Cheat Sheet、Cheat Hotkeys…）；
+> ③ "Trainer" 原本是**外部 exe 修改器**的用词，而这是个原生 tModLoader 模组。
 
 ### 免责
 
