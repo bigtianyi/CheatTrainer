@@ -1,0 +1,200 @@
+# 本文件由 _tools/gen_localization.py 生成，请勿手改。
+# 键前缀：Mods.TerrariaTrainer.
+# 语言：en-US
+
+UI: {
+	PanelTitle: "Terraria Trainer (14 in 1)"
+	Hint: "Press NumPad . to toggle · Hotkeys: Settings > Controls"
+	Footer: "Click a line to toggle (state is saved automatically)"
+	SpeedLabel: "Game Speed"
+	DamageLabel: "Damage Bonus"
+	BrightLabel: "Brightness"
+	StateOn: "ON"
+	StateOff: "OFF"
+	On: "ON"
+	Off: "OFF"
+	Unbound: "Unbound"
+	NumPadPrefix: "NumPad "
+	Prefix: "[Trainer] "
+}
+
+Keybinds: {
+	Cheat0: {
+		DisplayName: "Infinite Health"
+	}
+	Cheat1: {
+		DisplayName: "Infinite Mana"
+	}
+	Cheat2: {
+		DisplayName: "Infinite Breath"
+	}
+	Cheat3: {
+		DisplayName: "Infinite Flight"
+	}
+	Cheat4: {
+		DisplayName: "Noclip"
+	}
+	Cheat5: {
+		DisplayName: "Infinite Items"
+	}
+	Cheat6: {
+		DisplayName: "Quick Heal"
+	}
+	Cheat7: {
+		DisplayName: "Full Bright"
+	}
+	Cheat8: {
+		DisplayName: "Free Craft"
+	}
+	Cheat9: {
+		DisplayName: "Ignore Crafting Stations"
+	}
+	Cheat10: {
+		DisplayName: "Super Damage"
+	}
+	Cheat11: {
+		DisplayName: "Game Speed Hack"
+	}
+	Cheat12: {
+		DisplayName: "Sword to Zenith"
+	}
+	Cheat13: {
+		DisplayName: "Shellphone Crafting"
+	}
+	TogglePanel: {
+		DisplayName: "Toggle Control Panel"
+	}
+}
+
+# ---- 双语镜像：供模组内的语言开关切换使用 ----
+LangZh: {
+	UI: {
+		PanelTitle: "Terraria Trainer 14 合 1"
+		Hint: "按小键盘 . 开关面板 · 热键见 设置 → 控制"
+		Footer: "点击文字即可开关（开关状态会自动保存）"
+		SpeedLabel: "游戏速度"
+		DamageLabel: "超级伤害加成"
+		BrightLabel: "全亮强度"
+		StateOn: "开"
+		StateOff: "关"
+		On: "开启"
+		Off: "关闭"
+		Unbound: "未绑定"
+		NumPadPrefix: "小键盘 "
+		Prefix: "[Trainer] "
+	}
+
+	Keybinds: {
+		Cheat0: {
+			DisplayName: "无限生命"
+		}
+		Cheat1: {
+			DisplayName: "无限魔法"
+		}
+		Cheat2: {
+			DisplayName: "无限氧气"
+		}
+		Cheat3: {
+			DisplayName: "无限飞行"
+		}
+		Cheat4: {
+			DisplayName: "幽灵穿墙"
+		}
+		Cheat5: {
+			DisplayName: "无限物品"
+		}
+		Cheat6: {
+			DisplayName: "快速治疗"
+		}
+		Cheat7: {
+			DisplayName: "全亮"
+		}
+		Cheat8: {
+			DisplayName: "免材料合成"
+		}
+		Cheat9: {
+			DisplayName: "无视制作站"
+		}
+		Cheat10: {
+			DisplayName: "超级伤害"
+		}
+		Cheat11: {
+			DisplayName: "游戏变速"
+		}
+		Cheat12: {
+			DisplayName: "剑类合成天顶剑"
+		}
+		Cheat13: {
+			DisplayName: "通讯类合成"
+		}
+		TogglePanel: {
+			DisplayName: "呼出 / 收起面板"
+		}
+	}
+}
+
+LangEn: {
+	UI: {
+		PanelTitle: "Terraria Trainer (14 in 1)"
+		Hint: "Press NumPad . to toggle · Hotkeys: Settings > Controls"
+		Footer: "Click a line to toggle (state is saved automatically)"
+		SpeedLabel: "Game Speed"
+		DamageLabel: "Damage Bonus"
+		BrightLabel: "Brightness"
+		StateOn: "ON"
+		StateOff: "OFF"
+		On: "ON"
+		Off: "OFF"
+		Unbound: "Unbound"
+		NumPadPrefix: "NumPad "
+		Prefix: "[Trainer] "
+	}
+
+	Keybinds: {
+		Cheat0: {
+			DisplayName: "Infinite Health"
+		}
+		Cheat1: {
+			DisplayName: "Infinite Mana"
+		}
+		Cheat2: {
+			DisplayName: "Infinite Breath"
+		}
+		Cheat3: {
+			DisplayName: "Infinite Flight"
+		}
+		Cheat4: {
+			DisplayName: "Noclip"
+		}
+		Cheat5: {
+			DisplayName: "Infinite Items"
+		}
+		Cheat6: {
+			DisplayName: "Quick Heal"
+		}
+		Cheat7: {
+			DisplayName: "Full Bright"
+		}
+		Cheat8: {
+			DisplayName: "Free Craft"
+		}
+		Cheat9: {
+			DisplayName: "Ignore Crafting Stations"
+		}
+		Cheat10: {
+			DisplayName: "Super Damage"
+		}
+		Cheat11: {
+			DisplayName: "Game Speed Hack"
+		}
+		Cheat12: {
+			DisplayName: "Sword to Zenith"
+		}
+		Cheat13: {
+			DisplayName: "Shellphone Crafting"
+		}
+		TogglePanel: {
+			DisplayName: "Toggle Control Panel"
+		}
+	}
+}

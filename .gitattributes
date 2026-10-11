@@ -1,0 +1,10 @@
+# 统一使用 LF 行尾，避免跨平台协作时产生无谓的整文件 diff。
+# 特别地：Localization/*.hjson 由 _tools/gen_localization.py 以 LF 写出，
+# 若被 git 转成 CRLF，每次重新生成都会显示整个文件被改动。
+* text=auto eol=lf
+
+# 二进制文件不做行尾转换
+*.png binary
+*.ogg binary
+*.wav binary
+*.xnb binary

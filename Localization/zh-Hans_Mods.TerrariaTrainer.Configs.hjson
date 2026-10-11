@@ -1,0 +1,389 @@
+# 本文件由 _tools/gen_localization.py 生成，请勿手改。
+# 键前缀：Mods.TerrariaTrainer.Configs.
+# 语言：zh-Hans
+
+TrainerConfig: {
+	DisplayName: "Terraria Trainer (14 in 1) · 修改器设置"
+
+	Headers: {
+		Cheats: "功能开关"
+		Values: "数值调节"
+		ZenithCraft: "天顶剑合成"
+		ShellphoneCraft: "通讯类合成"
+		Language: "语言"
+	}
+
+	InfiniteHealth: {
+		Label: "无限生命"
+		Tooltip: "血量始终保持满值，受到任何伤害都不会死亡。"
+	}
+
+	InfiniteMana: {
+		Label: "无限魔法"
+		Tooltip: "魔法值始终保持满值。"
+	}
+
+	InfiniteBreath: {
+		Label: "无限氧气"
+		Tooltip: "在水下不会窒息。"
+	}
+
+	InfiniteFlight: {
+		Label: "无限飞行"
+		Tooltip: "可以一直飞行，没有翅膀也能飞。"
+	}
+
+	Noclip: {
+		Label: "幽灵穿墙"
+		Tooltip: "变成幽灵状态，可以穿过任何方块（穿墙期间不能攻击）。"
+	}
+
+	InfiniteItems: {
+		Label: "无限物品"
+		Tooltip: "背包里所有可堆叠物品始终保持满堆叠。"
+	}
+
+	QuickHeal: {
+		Label: "快速治疗"
+		Tooltip: "血量不满时自动喝下背包里恢复量最大的药水。"
+	}
+
+	FullBright: {
+		Label: "全亮"
+		Tooltip: "提高全局亮度，地下和夜晚都能看清。"
+	}
+
+	FreeCraft: {
+		Label: "免材料合成"
+		Tooltip: "合成物品不需要任何材料。"
+	}
+
+	IgnoreCraftingStations: {
+		Label: "无视制作站"
+		Tooltip: "不需要靠近工作台等制作站就能合成。"
+	}
+
+	SuperDamage: {
+		Label: "超级伤害"
+		Tooltip: "大幅提高武器伤害，可以秒杀大部分敌人。"
+	}
+
+	SpeedHack: {
+		Label: "游戏变速"
+		Tooltip: "调节游戏运行速度（配合「游戏速度倍率」滑条）。"
+	}
+
+	SwordToZenith: {
+		Label: "剑类合成天顶剑"
+		Tooltip: "背包里有天顶剑配方所需的任意一件武器时，天顶剑就会解锁，缺的材料自动忽略；合成时那一件武器照常消耗，相当于它「变成」了天顶剑。有几把就能合几把。原版与灾厄通用。"
+	}
+
+	ShellphoneCraft: {
+		Label: "通讯类合成"
+		Tooltip: "背包里有「手机」或「贝壳电话」配方所需的任意一件材料时，对应配方就会解锁，缺的材料自动忽略；合成时那一件材料照常消耗，相当于它「变成」了成品。一次覆盖手机与贝壳电话两级，从海螺可以一路合到贝壳电话。原版与灾厄通用。"
+	}
+
+	GameSpeed: {
+		Label: "游戏速度倍率"
+		Tooltip: "0.1x 到 10.0x，默认 2.5x。只在「游戏变速」开启时生效。"
+	}
+
+	DamageBonus: {
+		Label: "超级伤害加成"
+		Tooltip: "附加到武器上的固定伤害值。只在「超级伤害」开启时生效。"
+	}
+
+	Brightness: {
+		Label: "全亮强度"
+		Tooltip: "1.0 为原版亮度，越大越亮。只在「全亮」开启时生效。"
+	}
+
+	ZenithIgnoreStation: {
+		Label: "合成天顶剑免除制作站"
+		Tooltip: "开启后，合成天顶剑连秘银砧都不需要。只在「剑类合成天顶剑」开启时生效。"
+	}
+
+	ShellphoneIgnoreStation: {
+		Label: "合成通讯类免除制作站"
+		Tooltip: "开启后，合成手机 / 贝壳电话连工匠作坊都不需要。只在「通讯类合成」开启时生效。"
+	}
+
+	Language: {
+		Label: "界面语言"
+		Tooltip: "控制这个模组使用哪种语言文字。"
+	}
+}
+
+TrainerLanguage: {
+	Auto: {
+		Label: "跟随游戏"
+		Tooltip: ""
+	}
+	English: {
+		Label: "English"
+		Tooltip: ""
+	}
+	Chinese: {
+		Label: "中文"
+		Tooltip: ""
+	}
+}
+
+# ---- 双语镜像：供模组内的语言开关切换使用 ----
+LangZh: {
+	TrainerConfig: {
+		DisplayName: "Terraria Trainer (14 in 1) · 修改器设置"
+
+		Headers: {
+			Cheats: "功能开关"
+			Values: "数值调节"
+			ZenithCraft: "天顶剑合成"
+			ShellphoneCraft: "通讯类合成"
+			Language: "语言"
+		}
+
+		InfiniteHealth: {
+			Label: "无限生命"
+			Tooltip: "血量始终保持满值，受到任何伤害都不会死亡。"
+		}
+
+		InfiniteMana: {
+			Label: "无限魔法"
+			Tooltip: "魔法值始终保持满值。"
+		}
+
+		InfiniteBreath: {
+			Label: "无限氧气"
+			Tooltip: "在水下不会窒息。"
+		}
+
+		InfiniteFlight: {
+			Label: "无限飞行"
+			Tooltip: "可以一直飞行，没有翅膀也能飞。"
+		}
+
+		Noclip: {
+			Label: "幽灵穿墙"
+			Tooltip: "变成幽灵状态，可以穿过任何方块（穿墙期间不能攻击）。"
+		}
+
+		InfiniteItems: {
+			Label: "无限物品"
+			Tooltip: "背包里所有可堆叠物品始终保持满堆叠。"
+		}
+
+		QuickHeal: {
+			Label: "快速治疗"
+			Tooltip: "血量不满时自动喝下背包里恢复量最大的药水。"
+		}
+
+		FullBright: {
+			Label: "全亮"
+			Tooltip: "提高全局亮度，地下和夜晚都能看清。"
+		}
+
+		FreeCraft: {
+			Label: "免材料合成"
+			Tooltip: "合成物品不需要任何材料。"
+		}
+
+		IgnoreCraftingStations: {
+			Label: "无视制作站"
+			Tooltip: "不需要靠近工作台等制作站就能合成。"
+		}
+
+		SuperDamage: {
+			Label: "超级伤害"
+			Tooltip: "大幅提高武器伤害，可以秒杀大部分敌人。"
+		}
+
+		SpeedHack: {
+			Label: "游戏变速"
+			Tooltip: "调节游戏运行速度（配合「游戏速度倍率」滑条）。"
+		}
+
+		SwordToZenith: {
+			Label: "剑类合成天顶剑"
+			Tooltip: "背包里有天顶剑配方所需的任意一件武器时，天顶剑就会解锁，缺的材料自动忽略；合成时那一件武器照常消耗，相当于它「变成」了天顶剑。有几把就能合几把。原版与灾厄通用。"
+		}
+
+		ShellphoneCraft: {
+			Label: "通讯类合成"
+			Tooltip: "背包里有「手机」或「贝壳电话」配方所需的任意一件材料时，对应配方就会解锁，缺的材料自动忽略；合成时那一件材料照常消耗，相当于它「变成」了成品。一次覆盖手机与贝壳电话两级，从海螺可以一路合到贝壳电话。原版与灾厄通用。"
+		}
+
+		GameSpeed: {
+			Label: "游戏速度倍率"
+			Tooltip: "0.1x 到 10.0x，默认 2.5x。只在「游戏变速」开启时生效。"
+		}
+
+		DamageBonus: {
+			Label: "超级伤害加成"
+			Tooltip: "附加到武器上的固定伤害值。只在「超级伤害」开启时生效。"
+		}
+
+		Brightness: {
+			Label: "全亮强度"
+			Tooltip: "1.0 为原版亮度，越大越亮。只在「全亮」开启时生效。"
+		}
+
+		ZenithIgnoreStation: {
+			Label: "合成天顶剑免除制作站"
+			Tooltip: "开启后，合成天顶剑连秘银砧都不需要。只在「剑类合成天顶剑」开启时生效。"
+		}
+
+		ShellphoneIgnoreStation: {
+			Label: "合成通讯类免除制作站"
+			Tooltip: "开启后，合成手机 / 贝壳电话连工匠作坊都不需要。只在「通讯类合成」开启时生效。"
+		}
+
+		Language: {
+			Label: "界面语言"
+			Tooltip: "控制这个模组使用哪种语言文字。"
+		}
+	}
+
+	TrainerLanguage: {
+		Auto: {
+			Label: "跟随游戏"
+			Tooltip: ""
+		}
+		English: {
+			Label: "English"
+			Tooltip: ""
+		}
+		Chinese: {
+			Label: "中文"
+			Tooltip: ""
+		}
+	}
+}
+
+LangEn: {
+	TrainerConfig: {
+		DisplayName: "Terraria Trainer (14 in 1) · Trainer Settings"
+
+		Headers: {
+			Cheats: "Cheats"
+			Values: "Values"
+			ZenithCraft: "Zenith Crafting"
+			ShellphoneCraft: "Shellphone Crafting"
+			Language: "Language"
+		}
+
+		InfiniteHealth: {
+			Label: "Infinite Health"
+			Tooltip: "Keeps your health full so you cannot die."
+		}
+
+		InfiniteMana: {
+			Label: "Infinite Mana"
+			Tooltip: "Keeps your mana full."
+		}
+
+		InfiniteBreath: {
+			Label: "Infinite Breath"
+			Tooltip: "Prevents drowning underwater."
+		}
+
+		InfiniteFlight: {
+			Label: "Infinite Flight"
+			Tooltip: "Fly indefinitely, even without wings equipped."
+		}
+
+		Noclip: {
+			Label: "Noclip"
+			Tooltip: "Turn into a ghost and pass through blocks (you cannot attack while active)."
+		}
+
+		InfiniteItems: {
+			Label: "Infinite Items"
+			Tooltip: "Keeps every stackable item in your inventory at max stack."
+		}
+
+		QuickHeal: {
+			Label: "Quick Heal"
+			Tooltip: "Automatically drinks your strongest healing potion when hurt."
+		}
+
+		FullBright: {
+			Label: "Full Bright"
+			Tooltip: "Raises global brightness so caves and night are visible."
+		}
+
+		FreeCraft: {
+			Label: "Free Craft"
+			Tooltip: "Crafting consumes no materials."
+		}
+
+		IgnoreCraftingStations: {
+			Label: "Ignore Crafting Stations"
+			Tooltip: "Craft anywhere without being near a crafting station."
+		}
+
+		SuperDamage: {
+			Label: "Super Damage"
+			Tooltip: "Greatly increases weapon damage."
+		}
+
+		SpeedHack: {
+			Label: "Game Speed Hack"
+			Tooltip: "Changes how fast the game runs (see the Game Speed Multiplier slider)."
+		}
+
+		SwordToZenith: {
+			Label: "Sword to Zenith"
+			Tooltip: "If you carry any weapon used in the Zenith recipe, Zenith becomes craftable and missing materials are ignored. That weapon is still consumed, so it effectively becomes the Zenith. One craft per weapon you hold. Works in vanilla and Calamity."
+		}
+
+		ShellphoneCraft: {
+			Label: "Shellphone Crafting"
+			Tooltip: "If you carry any ingredient used in the Cell Phone or Shellphone recipe, that recipe becomes craftable and missing materials are ignored. That ingredient is still consumed, so it effectively becomes the result. Covers both tiers, so you can craft all the way from a conch to a Shellphone. Works in vanilla and Calamity."
+		}
+
+		GameSpeed: {
+			Label: "Game Speed Multiplier"
+			Tooltip: "0.1x to 10.0x, default 2.5x. Only applies while Game Speed Hack is on."
+		}
+
+		DamageBonus: {
+			Label: "Super Damage Bonus"
+			Tooltip: "Flat damage added to your weapons. Only applies while Super Damage is on."
+		}
+
+		Brightness: {
+			Label: "Brightness Strength"
+			Tooltip: "1.0 is vanilla brightness; higher is brighter. Only applies while Full Bright is on."
+		}
+
+		ZenithIgnoreStation: {
+			Label: "Zenith Needs No Station"
+			Tooltip: "Crafting the Zenith no longer requires an anvil. Only applies while Sword to Zenith is on."
+		}
+
+		ShellphoneIgnoreStation: {
+			Label: "Shellphone Needs No Station"
+			Tooltip: "Crafting the Cell Phone or Shellphone no longer requires a Tinkerer's Workshop. Only applies while Shellphone Crafting is on."
+		}
+
+		Language: {
+			Label: "UI Language"
+			Tooltip: "Which language this mod uses for its own text."
+		}
+	}
+
+	TrainerLanguage: {
+		Auto: {
+			Label: "Follow Game"
+			Tooltip: ""
+		}
+		English: {
+			Label: "English"
+			Tooltip: ""
+		}
+		Chinese: {
+			Label: "中文"
+			Tooltip: ""
+		}
+	}
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--
+      如果你的 tModLoader 装在别的位置，改这一行即可；
+      或者在命令行传 -p:TModLoaderPath="X:\path\to\tModLoader\" 。
+    -->
+    <TModLoaderPath Condition="'$(TModLoaderPath)' == ''">D:\SteamLibrary\steamapps\common\tModLoader\</TModLoaderPath>
+
+    <AssemblyName>TerrariaTrainer</AssemblyName>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <!-- 放在 ModSources 里时用同级的 tModLoader.targets，否则用安装目录里的 -->
+  <Import Project="..\tModLoader.targets" Condition="Exists('..\tModLoader.targets')" />
+  <Import Project="$(TModLoaderPath)tMLMod.targets" Condition="!Exists('..\tModLoader.targets')" />
+
+</Project>

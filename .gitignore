@@ -1,0 +1,22 @@
+# ---- tModLoader 编译产物 ----
+bin/
+obj/
+*.tmod
+*.pdb
+
+# ---- IDE / 编辑器 ----
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.DotSettings.user
+
+# ---- Python（本地化生成脚本）----
+__pycache__/
+*.pyc
+
+# ---- 操作系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store
